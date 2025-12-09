@@ -1,0 +1,8 @@
+{
+  "extends": "@my-fe/config-typescript/react.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist"
+  },
+  "include": ["src"]
+}
