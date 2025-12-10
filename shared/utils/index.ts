@@ -1,3 +1,5 @@
+import _ from 'lodash';
+
 /**
  * Format a date to a readable string
  */
@@ -7,6 +9,13 @@ export function formatDate(date: Date): string {
     month: 'long',
     day: 'numeric',
   }).format(date);
+}
+
+/**
+ * Example usage of a root dependency (lodash)
+ */
+export function chunkArray<T>(array: T[], size: number): T[][] {
+  return _.chunk(array, size);
 }
 
 /**

@@ -1,8 +1,0 @@
-{
-  "extends": "@my-fe/config-typescript/nextjs.json",
-  "compilerOptions": {
-    "rootDir": "./src",
-    "outDir": "./dist"
-  },
-  "include": ["src"]
-}

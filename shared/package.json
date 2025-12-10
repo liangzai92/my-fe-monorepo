@@ -1,0 +1,24 @@
+{
+  "name": "@liangzai/shared",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Shared utilities and components source package",
+  "main": "./utils/index.ts",
+  "exports": {
+    ".": "./utils/index.ts",
+    "./*": "./*"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "peerDependencies": {
+    "react": ">=18",
+    "vue": ">=3"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.17.21",
+    "@types/node": "^24.10.2",
+    "@types/react": "^19.2.7",
+    "react": "^19.2.1"
+  }
+}
